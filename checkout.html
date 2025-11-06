@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopLite - Checkout</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="top-bar">
+            <div>Summer sale discount off 60% off! <a href="products.html">Shop Now</a></div>
+        </div>
+        <nav class="main-nav">
+            <div class="logo"><a href="index.html">SHOPLITE</a></div>
+            <ul class="nav-links">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="products.html">SHOP</a></li>
+            </ul>
+            <div class="nav-icons">
+                 <a href="cart.html">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container page-content">
+        <h1 class="page-title">Checkout</h1>
+        <div class="checkout-layout">
+            <div class="billing-details">
+                <h2>Billing Details</h2>
+                <form class="checkout-form">
+                    <div class="form-group">
+                        <label for="name">Full Name</label>
+                        <input type="text" id="name" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="address">Address</label>
+                        <input type="text" id="address" required>
+                    </div>
+                    <div class="form-group half-width">
+                        <label for="city">City</label>
+                        <input type="text" id="city" required>
+                    </div>
+                    <div class="form-group half-width">
+                        <label for="zip">ZIP Code</label>
+                        <input type="text" id="zip" required>
+                    </div>
+                </form>
+            </div>
+
+            <div class="order-summary">
+                <h2>Your Order</h2>
+                <div class="summary-items">
+                    <!-- Order summary items will be inserted here -->
+                </div>
+                <div class="summary-row total">
+                    <span>Total</span>
+                    <span id="summary-total">$0.00</span>
+                </div>
+                <button type="submit" class="btn place-order-btn">Place Order</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-bottom"><div class="copyright">&copy; Copyright 2024 ShopLite.</div></div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

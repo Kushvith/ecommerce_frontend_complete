@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopLite - Shop</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="top-bar">
+            <div>Summer sale discount off 60% off! <a href="products.html">Shop Now</a></div>
+        </div>
+        <nav class="main-nav">
+            <div class="logo"><a href="index.html">SHOPLITE</a></div>
+            <ul class="nav-links">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="products.html" class="active">SHOP</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+            <div class="nav-icons">
+                <a href="#"><i class="fas fa-search"></i></a>
+                <a href="cart.html">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container page-content">
+        <h1 class="page-title">Shop All Products</h1>
+        <div class="shop-layout">
+            <aside class="filters">
+                <h3>Categories</h3>
+                <ul>
+                    <li><a href="#">All</a></li>
+                    <li><a href="#">Phones</a></li>
+                    <li><a href="#">Laptops</a></li>
+                    <li><a href="#">Watches</a></li>
+                    <li><a href="#">Gaming</a></li>
+                    <li><a href="#">Audio</a></li>
+                </ul>
+                <h3>Price Range</h3>
+                <input type="range" min="0" max="2000" value="2000">
+                <p>Up to $2000</p>
+            </aside>
+            <section class="product-grid">
+                <!-- Products would be loaded here. Example below: -->
+                <div class="product-item">
+                    <a href="product-detail.html">
+                        <img src="https://placehold.co/300x300/ffffff/333?text=Product+1" alt="Product 1">
+                        <h3>Smartphone Pro</h3>
+                        <p class="price">$999</p>
+                    </a>
+                </div>
+                 <div class="product-item">
+                    <a href="product-detail.html">
+                        <img src="https://placehold.co/300x300/ffffff/333?text=Product+2" alt="Product 2">
+                        <h3>Laptop Ultra</h3>
+                        <p class="price">$1500</p>
+                    </a>
+                </div>
+                 <div class="product-item">
+                    <a href="product-detail.html">
+                        <img src="https://placehold.co/300x300/ffffff/333?text=Product+3" alt="Product 3">
+                        <h3>Smart Watch</h3>
+                        <p class="price">$350</p>
+                    </a>
+                </div>
+                 <div class="product-item">
+                    <a href="product-detail.html">
+                        <img src="https://placehold.co/300x300/ffffff/333?text=Product+4" alt="Product 4">
+                        <h3>Gaming Console</h3>
+                        <p class="price">$499</p>
+                    </a>
+                </div>
+                 <div class="product-item">
+                    <a href="product-detail.html">
+                        <img src="https://placehold.co/300x300/ffffff/333?text=Product+5" alt="Product 5">
+                        <h3>Wireless Earbuds</h3>
+                        <p class="price">$199</p>
+                    </a>
+                </div>
+                <div class="product-item">
+                    <a href="product-detail.html">
+                        <img src="https://placehold.co/300x300/ffffff/333?text=Product+6" alt="Product 6">
+                        <h3>HD Monitor</h3>
+                        <p class="price">$250</p>
+                    </a>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-about"><h3>SHOPLITE</h3><p>The best place to find your favorite electronics.</p></div>
+            <div class="footer-links"><h3>QUICK LINKS</h3><ul><li><a href="index.html">Home</a></li><li><a href="products.html">Shop</a></li><li><a href="#">About</a></li></ul></div>
+            <div class="footer-links"><h3>HELP & INFO</h3><ul><li><a href="#">Track Your Order</a></li><li><a href="#">Returns</a></li><li><a href="#">Contact Us</a></li></ul></div>
+        </div>
+        <div class="footer-bottom"><div class="copyright">&copy; Copyright 2024 ShopLite.</div></div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopLite - Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="top-bar">
+            <div>Summer sale discount off 60% off! <a href="products.html">Shop Now</a></div>
+        </div>
+        <nav class="main-nav">
+            <div class="logo"><a href="index.html">SHOPLITE</a></div>
+            <ul class="nav-links">
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="products.html">SHOP</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+            <div class="nav-icons">
+                <a href="#"><i class="fas fa-search"></i></a>
+                <a href="cart.html">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container page-content">
+        <h1 class="page-title">Your Shopping Cart</h1>
+        <div class="cart-layout">
+            <div class="cart-items">
+                <!-- Cart items will be dynamically inserted here -->
+                <div class="empty-cart-message">Your cart is empty. <a href="products.html">Start shopping!</a></div>
+            </div>
+            <div class="cart-summary">
+                <h2>Summary</h2>
+                <div class="summary-row">
+                    <span>Subtotal</span>
+                    <span id="cart-subtotal">$0.00</span>
+                </div>
+                <div class="summary-row">
+                    <span>Shipping</span>
+                    <span>Free</span>
+                </div>
+                <div class="summary-row total">
+                    <span>Total</span>
+                    <span id="cart-total">$0.00</span>
+                </div>
+                <a href="checkout.html" class="btn checkout-btn">Proceed to Checkout</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-about"><h3>SHOPLITE</h3><p>The best place to find your favorite electronics.</p></div>
+            <div class="footer-links"><h3>QUICK LINKS</h3><ul><li><a href="index.html">Home</a></li><li><a href="products.html">Shop</a></li><li><a href="#">About</a></li></ul></div>
+            <div class="footer-links"><h3>HELP & INFO</h3><ul><li><a href="#">Track Your Order</a></li><li><a href="#">Returns</a></li><li><a href="#">Contact Us</a></li></ul></div>
+        </div>
+        <div class="footer-bottom"><div class="copyright">&copy; Copyright 2024 ShopLite.</div></div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

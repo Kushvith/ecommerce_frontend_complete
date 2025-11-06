@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopLite - Home</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+    <header>
+        <div class="top-bar">
+            <div>Summer sale discount off 60% off! <a href="products.html">Shop Now</a></div>
+        </div>
+        <nav class="main-nav">
+            <div class="logo">
+                <a href="index.html">SHOPLITE</a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html" class="active">HOME</a></li>
+                <li><a href="products.html">SHOP</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+            <div class="nav-icons">
+                <a href="#"><i class="fas fa-search"></i></a>
+                <a href="cart.html">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count">0</span>
+                </a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section class="hero">
+            <div class="hero-slide">
+                <div class="hero-content">
+                    <h1>GOPRO HERO9 BLACK</h1>
+                    <p>Limited stocks available. Grab it now!</p>
+                    <a href="products.html" class="btn">SHOP COLLECTION</a>
+                </div>
+                <div class="hero-image">
+                    <img src="01_ShopLite-Home.png" alt="GoPro Hero9 Black">
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="features">
+            <div class="feature-item"><i class="fas fa-truck"></i><div><h3>FREE DELIVERY</h3><p>On all orders over $99</p></div></div>
+            <div class="feature-item"><i class="fas fa-award"></i><div><h3>QUALITY GUARANTEE</h3><p>High-quality curated products</p></div></div>
+            <div class="feature-item"><i class="fas fa-tag"></i><div><h3>DAILY OFFERS</h3><p>Save up to 40% off</p></div></div>
+            <div class="feature-item"><i class="fas fa-shield-alt"></i><div><h3>100% SECURE PAYMENT</h3><p>Your transaction is secure</p></div></div>
+        </section>
+
+        <!-- Categories Section -->
+        <section class="categories">
+            <h2>CATEGORIES</h2>
+            <div class="category-grid">
+                <a href="products.html?category=phones" class="category-item">
+                    <img src="https://placehold.co/150x150/ffffff/333?text=Phones" alt="Phones">
+                    <p>Phones</p>
+                </a>
+                <a href="products.html?category=watches" class="category-item">
+                    <img src="https://placehold.co/150x150/ffffff/333?text=Watches" alt="Digital Watches">
+                    <p>Digital Watches</p>
+                </a>
+                <a href="products.html?category=laptops" class="category-item">
+                    <img src="https://placehold.co/150x150/ffffff/333?text=Laptops" alt="Laptops">
+                    <p>Laptops</p>
+                </a>
+                <a href="products.html?category=gaming" class="category-item">
+                    <img src="https://placehold.co/150x150/ffffff/333?text=Gaming" alt="Gaming">
+                    <p>Gaming</p>
+                </a>
+                <a href="products.html?category=audio" class="category-item">
+                    <img src="https://placehold.co/150x150/ffffff/333?text=Audio" alt="Audio">
+                    <p>Audio</p>
+                </a>
+            </div>
+        </section>
+
+        <!-- Best Selling Items Section -->
+        <section class="best-selling">
+            <h2>BEST SELLING ITEMS</h2>
+            <div class="product-grid">
+                <!-- Products will be dynamically inserted here by script.js, or you can hardcode them -->
+                <div class="product-item">
+                    <a href="product-detail.html">
+                        <img src="https://placehold.co/300x300/ffffff/333?text=iPad" alt="iPad (9th Gen)">
+                        <h3>iPad (9th Gen)</h3>
+                        <p class="price">$870</p>
+                    </a>
+                </div>
+                <div class="product-item">
+                    <a href="product-detail.html">
+                        <img src="https://placehold.co/300x300/ffffff/333?text=Drone" alt="Drone With Camera">
+                        <h3>Drone With Camera</h3>
+                        <p class="price">$600</p>
+                    </a>
+                </div>
+                <div class="product-item">
+                    <a href="product-detail.html">
+                        <img src="https://placehold.co/300x300/ffffff/333?text=Apple+Watch" alt="Apple Watch (2nd Gen)">
+                        <h3>Apple Watch (2nd Gen)</h3>
+                        <p class="price">$400</p>
+                    </a>
+                </div>
+                <div class="product-item">
+                    <a href="product-detail.html">
+                        <img src="https://placehold.co/300x300/ffffff/333?text=Smart+Speaker" alt="Bluetooth Speaker">
+                        <h3>Bluetooth Speaker</h3>
+                        <p class="price">$75</p>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer-about"><h3>SHOPLITE</h3><p>The best place to find your favorite electronics.</p></div>
+            <div class="footer-links"><h3>QUICK LINKS</h3><ul><li><a href="index.html">Home</a></li><li><a href="products.html">Shop</a></li><li><a href="#">About</a></li></ul></div>
+            <div class="footer-links"><h3>HELP & INFO</h3><ul><li><a href="#">Track Your Order</a></li><li><a href="#">Returns</a></li><li><a href="#">Contact Us</a></li></ul></div>
+        </div>
+        <div class="footer-bottom"><div class="copyright">&copy; Copyright 2024 ShopLite.</div></div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
